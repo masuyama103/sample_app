@@ -4,6 +4,8 @@ ruby '2.2.3'
 gem 'rails', '4.0.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.12.4'
+gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
+gem 'rake', '< 11.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
